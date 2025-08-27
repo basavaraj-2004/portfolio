@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>J Basavaraj | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>J Basavaraj</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Profile Image Section -->
+  <section class="profile-section" data-aos="fade-down">
+    <img src="profile.jpg" alt="J Basavaraj" class="profile-img" />
+    <h2>Welcome to My Portfolio</h2>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I have completed my engineering graduation in ECE. I am interested in solving real-world problems, coding, and have some knowledge in VLSI.</p>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Resume</h2>
+      <p><a class="btn" href="https://drive.google.com/file/d/152V5OBKJCECNwAVGyHceMvh6r32LFMWY/view?usp=drive_link" target="_blank">View My Resume</a></p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card" data-aos="zoom-in">
+          <h3>Weather App</h3>
+          <p>Real-time weather updates using API.</p>
+          <a href="https://github.com/Eminem-00/weather-app" target="_blank">View Project</a>
+        </div>
+        <div class="card" data-aos="zoom-in">
+          <h3>Emotion Music Recommender</h3>
+          <p>Recommends music based on your emotion.</p>
+          <a href="https://github.com/Eminem-00/emotion-music-recommender" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/mblkzjzr" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 J Basavaraj. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS Files -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
